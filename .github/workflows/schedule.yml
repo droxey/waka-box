@@ -1,7 +1,7 @@
 name: Update GitHub Gists with WakaTime Stats Weekly
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "30 10 * * *"
 jobs:
   update-gist:
     runs-on: ubuntu-latest
